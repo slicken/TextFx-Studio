@@ -1,6 +1,7 @@
-# Run and deploy your AI Studio app
+# TextFx Studio
 
-This contains everything you need to run your app locally.
+This app lets you create texts with filters, effects and cool backgrounds, with AI.
+Powered by Gemini.
 
 View your app in AI Studio: https://ai.studio/apps/drive/1aqP9FYgmzMDpePZ5bMn26IblWnkKdFkA
 
