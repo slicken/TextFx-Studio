@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { GeneratedImage } from '../types';
 
@@ -21,11 +22,11 @@ const ResultModal: React.FC<ResultModalProps> = ({ image, isOpen, onClose }) => 
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/90 backdrop-blur-sm animate-fade-in">
-      <div className="bg-neutral-900 rounded-2xl shadow-2xl shadow-red-900/20 max-w-lg w-full border border-neutral-800 overflow-hidden flex flex-col">
+      <div className="bg-neutral-900 rounded-2xl shadow-2xl shadow-blue-900/20 max-w-lg w-full border border-neutral-800 overflow-hidden flex flex-col">
         
         {/* Header */}
         <div className="p-4 flex justify-between items-center border-b border-neutral-800 bg-neutral-950/50">
-          <h3 className="text-lg font-bold text-white bg-clip-text text-transparent bg-gradient-to-r from-red-400 to-orange-400">
+          <h3 className="text-lg font-bold text-white bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-400">
             Here is your masterpiece
           </h3>
           <button 
@@ -51,7 +52,7 @@ const ResultModal: React.FC<ResultModalProps> = ({ image, isOpen, onClose }) => 
         <div className="p-6 flex gap-3 flex-col sm:flex-row">
           <button
             onClick={handleDownload}
-            className="flex-1 bg-gradient-to-r from-red-700 to-red-600 hover:from-red-600 hover:to-red-500 text-white font-bold py-3 px-4 rounded-xl transition-all transform active:scale-95 flex items-center justify-center gap-2 shadow-lg shadow-red-900/30"
+            className="flex-1 bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500 text-white font-bold py-3 px-4 rounded-xl transition-all transform active:scale-95 flex items-center justify-center gap-2 shadow-lg shadow-blue-900/30"
           >
              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
               <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M12 12.75l-3-3m3 3l3-3m-3 3V3" />
